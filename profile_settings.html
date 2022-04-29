@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuracion</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <center>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="main_menu_usuario.html">Pedir carrera</a>
+            <a href="main_menu_conductor.html">Transportar</a>
+            <a href="profile_settings.html" id="Config" class="sidenav_down">Configuracion</a>
+        </div>
+        <span onclick="openNav()"><img src="menu.png" alt="imagen del menu" height="55px" class="menu"></span>
+    </center>
+    <center>
+        <form action="" method="post">
+            <h2>Profile Settings</h2>
+            <table>
+                <tr>
+                    <td>Foto de persona:</td>
+                    <td><input type="file" name="foto" placeholder="Ingrese foto de usuario"></td>
+                </tr>
+                <tr>
+                    <td>Usuario:</td>
+                    <td><input type="text" name="user" placeholder="Ingrese el nombre de usuario"></td>
+                </tr>
+                <tr>
+                    <td>Correo:</td>
+                    <td><input type="email" name="mail" placeholder="Ingrese el correo"></td>
+                </tr>
+                <tr>
+                    <td>Contraseña:</td>
+                    <td><input type="password" name="user_pass" placeholder="Ingrese la contraseña"></td>
+                </tr>
+                <tr>
+                    <td><a href="White_Space.html"><button type="button">Save Changes</button></a></td>
+                    <td><a href="White_Space.html"><button type="button">Cancel</button></a></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    <script src="Pagina.js"></script>
+</body>
+
+</html>

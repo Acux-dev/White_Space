@@ -1,0 +1,120 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Space</title>
+</head>
+
+<body>
+    <center>
+        <h3>Registrar cuenta</h3>
+
+        <form action="" method="post" id="register">
+            <h3>Cuenta Usuario</h3>
+            <table>
+                <tr>
+                    <td>Usuario:</td>
+                    <td>
+                        <label>
+                            <input type="text" name="user" placeholder="Ingrese el nombre de usuario" id="usuario">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contraseña:</td>
+                    <td>
+                        <label>
+                            <input type="password" name="user_pass" placeholder="Ingrese la contraseña" id="contraseña">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Correo:</td>
+                    <td>
+                        <Label>
+                            <input type="email" name="mail" placeholder="Ingrese el correo" id="correo">
+                        </Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cedula:</td>
+                    <td>
+                        <label>
+                            <input type="number" name="cedula" placeholder="Ingrese la cedula" id="cedula">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fecha de nacimiento:</td>
+                    <td>
+                        <label>
+                            <input type="date" name="born_date" placeholder="DD/MM/AA" id="fecha">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Genero:</td>
+                    <td>
+                        <div>
+                            <input type="radio" name="gender"> Hombre
+                            <input type="radio" name="gender"> Mujer
+                            <input type="radio" name="gender"> Helicoptero Apache
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dirección:</td>
+                    <td>
+                        <label>
+                            <input type="text" name="direccion" placeholder="Ingrese la dirección" id="direccion">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span onclick="register()"><img src="registro.PNG" alt="imagen de boton" height="25px"></span>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <form action="" method="post" id="cuenta_conductor">
+            <h3>Informacion Adicional para Conductor</h3>
+            <table>
+                <tr>
+                    <td>Placa del vehiculo:</td>
+                    <td><input type="text" name="placa" placeholder="Ingrese la placa" id="placavehiculo"></td>
+                </tr>
+                <tr>
+                    <td>Foto de persona:</td>
+                    <td><input type="file" name="foto" placeholder="Ingrese foto de usuario"></td>
+                </tr>
+                <tr>
+                    <td>Certificado Judicial:</td>
+                    <td><input type="file" name="certificado" placeholder="Ingrese foto del certificado"></td>
+                </tr>
+                <tr>
+                    <td>Licencia de conduccion:</td>
+                    <td><input type="file" name="licencia" placeholder="Ingrese foto de licencia de conduccion"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="White_Space.html"><img src="registro.PNG" alt="imagen de boton" height="25px"></a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <table>
+            <tr>
+                <td>
+                    <p>Ya tienes cuenta? <a href="inicio_sesion.html">Inicia sesion aqui</a></p>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <script src="Pagina.js"></script>
+</body>
+
+</html>
