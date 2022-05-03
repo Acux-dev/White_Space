@@ -49,7 +49,7 @@ function register() {
         alert("Direccion invalida.");
         return;
     } else if (eemail.indexOf(email) == -1) {
-        eemail.push(email);
+        eemail.push(email)
         coontraseña.push(contraseña);
         location.href = "inicio_sesion.html";
         document.getElementById("correo").value = "";
@@ -92,4 +92,17 @@ function login() {
         document.getElementById("contraseña").value = "";
         return;
     }
+}
+
+function CrearRuta() {
+    alert("la ruta se guardo correctamente");
+}
+
+function EntarRuta() {
+    alert("se ingreso correctamente");
+}
+
+function Perfil() {
+    alert("los datos se guardaron correctamente");
+    location.href = "White_Space.html";
 }
